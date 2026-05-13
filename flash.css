@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.flashcard {
+  margin: 20px 0;
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 120px;
+  position: relative;
+  background: #fefefe;
+}
+
+.card-text {
+  font-size: 1.2em;
+}
+
+.hidden {
+  display: none;
+}
+
+.buttons button,
+.form button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1em;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin: 5px 0;
+}
